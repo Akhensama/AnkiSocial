@@ -6,7 +6,7 @@ import requests
 MASTER_DECK_FILE = 'master_deck.json'
 PREVIOUS_SIZE_FILE = 'previous_special_size.json'
 ANKI_CONNECT_URL = 'http://localhost:8765'
-LAW_DECK = 'Development'
+LAW_DECK = 'Basis'
 SPECIAL_DECK = 'Special Deck'
 
 def load_master_deck():

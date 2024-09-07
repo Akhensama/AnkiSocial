@@ -9,7 +9,7 @@ with open('credentials.json') as f:
     credentials = json.load(f)
 openai.api_key = credentials.get("openai_api_key")
 ANKI_CONNECT_URL = 'http://localhost:8765'
-LAW_DECK = 'Development'
+LAW_DECK = 'Basis' # name of most used deck
 SPECIAL_DECK = 'Special Deck'
 
 # Google Sheets
